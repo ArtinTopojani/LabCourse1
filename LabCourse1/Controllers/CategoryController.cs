@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
+
+
 namespace LabCourse1.Controllers
 {
-    public class TestController : Controller
+    public class CategoryController : Controller
     {
         public IActionResult Index()
         {
