@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace LabCourse1.Migrations
+namespace LabCourse1.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryTableToDb : Migration

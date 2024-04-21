@@ -1,4 +1,4 @@
-﻿using LabCourse1.Data;
+﻿using LabCourse1.DataAccess.Data;
 using LabCourse1.Models;
 using Microsoft.AspNetCore.Mvc;
 

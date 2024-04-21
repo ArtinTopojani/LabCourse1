@@ -1,7 +1,7 @@
 ﻿using LabCourse1.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LabCourse1.Data
+namespace LabCourse1.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {

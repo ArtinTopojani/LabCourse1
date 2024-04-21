@@ -1,4 +1,5 @@
-using LabCourse1.Data;
+
+using LabCourse1.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
