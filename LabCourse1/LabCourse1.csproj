@@ -20,4 +20,8 @@
     <ProjectReference Include="..\LabCourse1.DataAccess\LabCourse1.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

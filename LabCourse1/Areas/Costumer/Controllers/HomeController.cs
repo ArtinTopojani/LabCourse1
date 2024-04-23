@@ -2,8 +2,9 @@ using LabCourse1.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace LabCourse1.Controllers
+namespace LabCourse1.Areas.Costumer.Controllers
 {
+    [Area("Costumer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
