@@ -7,6 +7,11 @@ a.navbar-brand {
     word-break: break-all;
 }
 
+body {
+    background-color: #e3f2e6;
+    
+}
+
 
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -63,7 +68,7 @@ html {
 }
 
 .text-primary {
-    color: #192E2F !important;
+    color: #81B197 !important;
 }
 
 .text-success {
@@ -71,7 +76,7 @@ html {
 }
 
 .bg-primary {
-    background-color: #192E2F !important;
+    background-color: #81B197 !important;
 }
 
 .bg-secondary {
@@ -80,6 +85,10 @@ html {
 
 bg-success {
     background-color: #4b7147 !important;
+}
+
+.bg-primary-dark {
+    background-color: #315943;
 }
 
 
@@ -232,7 +241,7 @@ bg-success {
 
 .btn-primary {
     color: #fff;
-    background-color: #192E2F;
+    background-color: #81B197;
     border-color: #192E2F;
 }
 
@@ -240,8 +249,8 @@ bg-success {
 
     .btn-primary:hover {
         color: #fff;
-        background-color: #445f5e;
-        border-color: #445f5e;
+        background-color: #648975;
+        border-color: #648975;
     }
 
 
@@ -537,3 +546,20 @@ bg-success {
         background-color: #578553;
         border-color: #578553;
     }
+
+
+    .card-home {
+        transition: transform 0.3s ease-in-out;
+        background-color: #f2f7f4;
+    }
+
+    .card-home:hover {
+        transform: scale(1.01); 
+    }
+
+    .card-home img {
+         transition: transform 0.3s ease-in-out;
+    }
+    .card-home:hover img {
+         transform: scale(1.05); /* Adjust the scale factor as needed */
+     }
